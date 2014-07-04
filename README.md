@@ -1,4 +1,4 @@
 dns
 ===
 
-fetch dns records
+fetch dns and whois records
