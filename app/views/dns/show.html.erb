@@ -1,0 +1,86 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNS records</title>
+      </head>
+	    <body>
+	<%= render 'form' %>
+
+<! Results >
+<!Namservers>
+<div class="row">
+ <div class="large-12 columns">
+   <p>The authorative nameservers  for <%=@domains %> are </p>
+  </div>
+</div>
+
+<div class="row">
+ <div class="large-12 columns">
+  <div class="panel">
+     
+    <% @result.split.each do |r|%>
+	 <strong><%= r %></strong>
+	</br>
+	<% end%>
+		 
+   </div>
+  </div>
+ </div>
+ 
+<!Namservers End>
+
+<!Records Fetched >
+<div class="row">
+ <div class="large-12 columns">
+ <table>
+  <thead>
+    <tr>
+      <th width="200">Type</th>
+      <th width="150">Authorative Nameserver</th>
+      <th >Result</th>
+          </tr>
+  </thead>
+  <! if checkboxes are nil>
+  
+  <% if @records.nil? %>
+     <% @ns.each do |ns1| %>
+      <%@result = `dig +short @#{ns1} #{@domains}`%>
+       <tbody>
+		  <tr>
+            <td>A</td>
+			  <td><%=ns1%></td>
+			  <td><%=@result%></td>
+          </tr>
+       </tbody>
+     <% end %>  
+   <% else %>
+	<% @records.each do | rec| %>
+		<% @ns.each do |ns1| %>
+	      <%@result = `dig +short @#{ns1} #{rec} #{@domains}`%>
+		 <tbody>
+		  <tr>
+            <td><%=rec%></td>
+			  <td><%=ns1%></td>
+			  <td><%=@result%></td>
+   </tr>
+   </tbody>
+	  <% end %>
+	 <% end %> 
+	<% end %> 
+   </table>
+ 
+  </div>
+ </div>
+
+<!Records End >
+
+   </body>
+</html>
+
+
+
+
+
+
