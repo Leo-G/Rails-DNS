@@ -8,8 +8,72 @@
 	    <body>
 	<%= render 'form' %>
 
-<! Results >
-<!Namservers>
+   <! IF NO RECORDS SELECTE THEN PRINT a>
+  <% if @records.nil? %>
+  <!Namservers>
+<div class="row">
+ <div class="large-12 columns">
+   <p>The authorative nameservers  for <%=@domains %> are </p>
+  </div>
+</div>
+
+<div class="row">
+ <div class="large-12 columns">
+  <div class="panel">
+     
+    <% @result.split.each do |r|%>
+	 <strong><%= r %></strong>
+	</br>
+	<% end%>
+		 
+   </div>
+  </div>
+ </div>
+ 
+<!Namservers End>
+
+  <div class="row">
+   <div class="large-12 columns">
+     <table>
+      <thead>
+       <tr>
+      <th width="200">Type</th>
+      <th width="150">Authorative Nameserver</th>
+      <th >Result</th>
+          </tr>
+  </thead>
+  
+     <% @ns.each do |ns1| %>
+      <%@result = `dig +short @#{ns1} #{@domains}`%>
+       <tbody>
+		  <tr>
+            <td>A</td>
+			  <td><%=ns1%></td>
+			  <td><%=@result%></td>
+          </tr>
+       </tbody>
+	       <% end %>  
+		   </table>
+    </div>
+ </div> 
+   <% else %>
+	<% @records.each do | rec| %>
+	
+	<! IF RECORD EQUAL TO PTR >
+	 
+ <% if rec == "ptr" %>
+   <div class="row">
+    <div class="large-12 columns">
+     <div class="panel">
+       <%  @a =`dig +short @8.8.8.8 a #{@domains}` %>
+       <%  @ptr =`dig  +noall +answer @8.8.8.8 -x #{@a} ` %>
+       <%= @ptr %>
+	    </div>
+     </div>
+   </div>
+   <% else %>
+
+  <!Namservers>
 <div class="row">
  <div class="large-12 columns">
    <p>The authorative nameservers  for <%=@domains %> are </p>
@@ -42,21 +106,8 @@
       <th >Result</th>
           </tr>
   </thead>
-  <! if checkboxes are nil>
+ 
   
-  <% if @records.nil? %>
-     <% @ns.each do |ns1| %>
-      <%@result = `dig +short @#{ns1} #{@domains}`%>
-       <tbody>
-		  <tr>
-            <td>A</td>
-			  <td><%=ns1%></td>
-			  <td><%=@result%></td>
-          </tr>
-       </tbody>
-     <% end %>  
-   <% else %>
-	<% @records.each do | rec| %>
 		<% @ns.each do |ns1| %>
 	      <%@result = `dig +short @#{ns1} #{rec} #{@domains}`%>
 		 <tbody>
@@ -70,11 +121,13 @@
 	 <% end %> 
 	<% end %> 
    </table>
+   
  
   </div>
  </div>
 
 <!Records End >
+<%end%>
 
    </body>
 </html>

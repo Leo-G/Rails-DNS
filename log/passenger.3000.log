@@ -1,0 +1,93 @@
+[ 2014-07-04 17:59:46.8359 11508/7fc5e1c1a720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xNXRycm50L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.15trrnt/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '11507', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-04 17:59:46.8416 11511/7f5fe8e76720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.11507/generation-0/request
+[ 2014-07-04 17:59:46.8509 11519/7fa0f4558720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.11507/generation-0/logging
+[ 2014-07-04 17:59:46.8511 11508/7fc5e1c1a720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 11545 stdout: 
+[ 2014-07-04 17:59:50.0699 11511/7f5fe8d7e700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 11545, listening on unix:/tmp/passenger.1.0.11507/generation-0/backends/preloader.11545
+App 11658 stdout: 
+App 11666 stdout: 
+App 11680 stdout: 
+App 19627 stdout: 
+[ 2014-07-04 20:03:38.3844 11511/7f5fe8d7e700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 19627, listening on unix:/tmp/passenger.1.0.11507/generation-0/backends/preloader.19627
+App 19742 stdout: 
+[ 2014-07-04 20:05:00.2281 11519/7fa0f4558720 agents/LoggingAgent/Main.cpp:289 ]: Caught signal, exiting...
+[ 2014-07-04 20:05:45.6989 20063/7fc0cc4b9720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xYWNmaHl5L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1acfhyy/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '20062', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-04 20:05:45.7040 20066/7ffd9b557720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.20062/generation-0/request
+[ 2014-07-04 20:05:45.7095 20071/7f7268f69720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.20062/generation-0/logging
+[ 2014-07-04 20:05:45.7097 20063/7fc0cc4b9720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 20098 stdout: 
+[ 2014-07-04 20:05:48.9747 20066/7ffd9b45f700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 20098, listening on unix:/tmp/passenger.1.0.20062/generation-0/backends/preloader.20098
+App 20213 stdout: 
+App 20238 stdout: 
+[ 2014-07-04 20:08:30.1108 20362/7f1e788a6720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS51eHBoZ2kvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.uxphgi/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '20361', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-04 20:08:30.1158 20365/7f82259f3720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.20361/generation-0/request
+[ 2014-07-04 20:08:30.1222 20371/7f97b0f6c720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.20361/generation-0/logging
+[ 2014-07-04 20:08:30.1223 20362/7f1e788a6720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 20397 stdout: 
+[ 2014-07-04 20:08:33.2900 20365/7f82258fb700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 20397, listening on unix:/tmp/passenger.1.0.20361/generation-0/backends/preloader.20397
+App 20512 stdout: 
+App 20588 stdout: 
+[ 2014-07-04 20:10:21.1666 20653/7fdfa1fc3720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdXNlMGgyL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1use0h2/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '20652', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-04 20:10:21.1711 20656/7fb838b01720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.20652/generation-0/request
+[ 2014-07-04 20:10:21.1761 20662/7fa4a1a67720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.20652/generation-0/logging
+[ 2014-07-04 20:10:21.1763 20653/7fdfa1fc3720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 20690 stdout: 
+[ 2014-07-04 20:10:24.5748 20656/7fb838a09700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 20690, listening on unix:/tmp/passenger.1.0.20652/generation-0/backends/preloader.20690
+App 20803 stdout: 
+[ 2014-07-04 20:11:31.7915 20889/7f0dccd66720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5jZzIyb3AvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.cg22op/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '20888', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-04 20:11:31.7965 20892/7f2be1b89720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.20888/generation-0/request
+[ 2014-07-04 20:11:31.8015 20898/7f1966e2b720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.20888/generation-0/logging
+[ 2014-07-04 20:11:31.8017 20889/7f0dccd66720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 20923 stdout: 
+[ 2014-07-04 20:11:34.9690 20892/7f2be1a92700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 20923, listening on unix:/tmp/passenger.1.0.20888/generation-0/backends/preloader.20923
+App 21039 stdout: 
+App 21046 stdout: 
+App 21058 stdout: 
+[ 2014-07-04 20:13:55.8417 21166/7fcb7e557720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5lZTlqNncvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.ee9j6w/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '21165', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-04 20:13:55.8460 21169/7fcf70449720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.21165/generation-0/request
+[ 2014-07-04 20:13:55.8505 21174/7f8a5ce2e720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.21165/generation-0/logging
+[ 2014-07-04 20:13:55.8507 21166/7fcb7e557720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 21201 stdout: 
+[ 2014-07-04 20:13:59.0427 21169/7fcf70351700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 21201, listening on unix:/tmp/passenger.1.0.21165/generation-0/backends/preloader.21201
+App 21317 stdout: 
+App 21324 stdout: 
+App 21336 stdout: 
+App 21628 stdout: 
+App 21678 stdout: 
+[ 2014-07-08 12:27:26.2828 27921/7f428be6a720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5lNmNkZXcvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.e6cdew/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '27920', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-08 12:27:26.2927 27924/7f240971a720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.27920/generation-0/request
+[ 2014-07-08 12:27:26.3051 27930/7fa7a262d720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.27920/generation-0/logging
+[ 2014-07-08 12:27:26.3053 27921/7f428be6a720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 27958 stdout: 
+[ 2014-07-08 12:27:29.8932 27924/7f2409622700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 27958, listening on unix:/tmp/passenger.1.0.27920/generation-0/backends/preloader.27958
+App 28071 stdout: 
+App 28139 stdout: 
+App 28147 stdout: 
+App 27958 stderr: sh: line 1: 162.251.80.6: command not found
+App 9781 stdout: 
+[ 2014-07-08 16:31:01.5674 27924/7f2409663700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 9781, listening on unix:/tmp/passenger.1.0.27920/generation-0/backends/preloader.9781
+App 9894 stdout: 
+App 10024 stdout: 
+App 10310 stdout: 
+App 9781 stderr: sh: line 1: 162.251.80.6: command not found
+App 11312 stdout: 
+[ 2014-07-08 16:48:22.2034 27924/7f2409663700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 11312, listening on unix:/tmp/passenger.1.0.27920/generation-0/backends/preloader.11312
+App 11425 stdout: 
+[ 2014-07-08 16:50:39.1057 27930/7fa7a262d720 agents/LoggingAgent/Main.cpp:289 ]: Caught signal, exiting...
+[ 2014-07-08 16:51:25.8274 11742/7f068a79c720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xc3JneWpzL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1srgyjs/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '11741', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-08 16:51:25.8322 11745/7fa36f965720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.11741/generation-0/request
+[ 2014-07-08 16:51:25.8396 11750/7f1b654d4720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.11741/generation-0/logging
+[ 2014-07-08 16:51:25.8398 11742/7f068a79c720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 11777 stdout: 
+[ 2014-07-08 16:51:29.2831 11745/7fa36f86e700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 11777, listening on unix:/tmp/passenger.1.0.11741/generation-0/backends/preloader.11777
+App 11892 stdout: 
+App 11913 stdout: 
+App 11921 stdout: 
+[ 2014-07-08 16:57:14.4213 12251/7f0c811b5720 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'leo', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xbXVkb2dmL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'leo', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/gems/ruby-2.1.0/wrappers/ruby', 'default_user' => 'leo', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1mudogf/locations.ini', 'passenger_version' => '4.0.42', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.42', 'web_server_pid' => '12250', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-07-08 16:57:14.4277 12254/7f61e1841720 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.12250/generation-0/request
+[ 2014-07-08 16:57:14.4327 12259/7feaf4775720 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.12250/generation-0/logging
+[ 2014-07-08 16:57:14.4329 12251/7f0c811b5720 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 12286 stdout: 
+[ 2014-07-08 16:57:17.8204 12254/7f61e174a700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/leo/dns_test/dns started on PID 12286, listening on unix:/tmp/passenger.1.0.12250/generation-0/backends/preloader.12286
+App 12401 stdout: 
+App 12432 stdout: 
